@@ -5,4 +5,4 @@ def index(request):
 	return HttpResponse("dammitall")
 
 def spunky_at_the_park(request):
-	return render(request, "spunky.html")
+	return render(request, "spunky12/spunky.html")
